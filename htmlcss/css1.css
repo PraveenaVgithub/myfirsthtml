@@ -1,0 +1,26 @@
+html{
+    border: 7px groove blue;
+}
+#imgr{
+    
+    border-radius: 90px;
+    background-color: aquamarine;
+    margin: 100px 300px 20px 40px;
+}
+#heado{
+    margin-left: 1000px;
+    color: rgb(80, 80, 211);
+    padding-bottom: 0;
+    background-color: yellowgreen;
+}
+main{
+    margin: 10px 100px;
+}
+#read{
+    margin-left: 700px;
+}
+#imgr img{
+    height: 170px;
+    width: 70px;
+    border-radius: 70px;
+}
