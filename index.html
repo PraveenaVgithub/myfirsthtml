@@ -1,53 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vee shop</title>
+    <link rel="icon" href="./imgs/fav.png" />
+    <link rel="stylesheet" href="./mini.css"/>
+  </head>
+  <header id="top">
+    <h1 id="first" >vee shop</h1>
+    <h2 class="h2d">best collections</h2>
+    <nav>
+      <ul id="na" class="nac">
+        <li><a href="#about" target="_self">About Us </a></li>
+        <li><a href="#wehave" target="_self">We Have</a></li>
+        <li><a href="#contact" target="_self">Contact Us</a></li>
+      </ul>
+    </nav>
+    <img class= "logoimg" src="logo.webp" height="225" />
+    <hr />
+  </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta keyword="school table">
-</head>
-
-<body>
-    <form>
-        <fieldset>
-            <legend>student</legend>
-            <input type="text" placeholder="name" required />
-            <input type="number" min="6" max="20"><label>age</label>
-            <input type="date"><label>dob</label>
-            <div>
-                <input type="radio" id="male"><label for value="male">male</label>
-                <input type="radio" for value="female"><label id="female">female</label>
-
-            </div>
-            <h3>Course interested</h3>
-            <select multiple>
-                <option value="css">css</option>
-                <option value="html" default>html</option>
-                <option value="js">js</option>
-            </select>
-            <input type="submit" />
-            <input type="reset">
-        </fieldset>
-    </form>
-    <table border="5 solid green">
-        <thead>
-            <th>rno</th>
-            <th>name</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>vee</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>snjj</td>
-            </tr>
-        </tbody>
-    </table>
-
-</body>
-
+  <body>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Vee is an online shopping page <mark>exclusive for women</mark> .
+          <br />
+          we are here with the best collections and trends that you look for all
+          the occasions. found by a young lady with great sense in fashion.
+        </p>
+        <details>
+          <summary>Founder</summary>
+          <p>
+            Miss.Praveena the founder of Vee <br />
+            On 23 december 2023
+          </p>
+        </details>
+      </section>
+      <hr />
+      <section id="wehave">
+        <h2>Our products</h2>
+        <table>
+          <thead>
+            <th>Western wear</th>
+            <th>traditional wear</th>
+            <th>Formal Wear</th>
+          </thead>
+          <tbody id="tabimg">
+            <tc>
+           <td>
+                <figure>
+                  <img src="tee.jpg" height="100" />
+                  <figcaption>T-ee's</figcaption>
+                </figure>
+                <figure>
+                  <img src="tops.jpg" height="100" />
+                  <figcaption>tops</figcaption>
+                </figure>
+                <figure>
+                  <img src="jean.jpg" height="100" />
+                  <figcaption>jeans</figcaption>
+                </figure>
+                MAny more.....
+              </td>
+            </tc>
+            <tc>
+              <td>
+                <figure>
+                  <img src="saree.jpg" height="100" />
+                  <figcaption>saree</figcaption>
+                </figure>
+                <figure>
+                  <img src="leh.jpg" height="100" />
+                  <figcaption>lehanga</figcaption>
+                </figure>
+                <figure>
+                  <img src="chudi.jpg" height="100" />
+                  <figcaption>chudi</figcaption>
+                </figure>
+              </td>
+            </tc>
+            <tc>
+              <td>
+                <figure>
+                  <a href="https://www.myntra.com/women-formal-shirts" target="_blank"><img src="formalshirt.webp" height="100" /></a>
+                  <figcaption>formal shirts</figcaption>
+                </figure>
+                <figure>
+                  <img src="officewear.jpg" height="100" />
+                  <figcaption>office wear</figcaption>
+                </figure>
+                <figure>
+                  <img src="clgwear.jpg" height="100" />
+                  <figcaption>college wear</figcaption>
+                </figure>
+              </td>
+            </tc>
+          </tbody>
+        </table> <br><a href="#top">BAck TO TOP</a>
+      </section>
+      <hr /><footer>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          <strong>email: vee2323@gmail.com</strong><br />
+          <strong>ph: 044-43244324</strong>
+        </p>
+        feedback: <br />
+        <input type="text" maxlength="250" />
+        <button>submit</button><br>
+        <p>&lt;&lt;&lt; &copy; Vee</p>
+        <a href="#top">BAck TO TOP</a>
+      </section></footer>
+    </main>
+  </body>
 </html>
